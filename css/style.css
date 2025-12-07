@@ -1,0 +1,45 @@
+body{
+    background-color: #0f0e17;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.contain{
+    padding: 20px;
+}
+.profile img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.all{
+    background-color: #202021;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+}
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+.links li a {
+  display: block; 
+  padding: 12px;
+  background-color: #2f3032; 
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+.bio{
+    color: rgb(136, 227, 136);
+}
