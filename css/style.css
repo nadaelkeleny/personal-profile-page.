@@ -5,6 +5,9 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
 }
 .contain{
     padding: 20px;
@@ -23,6 +26,7 @@ body{
     text-align: center;
     width: 100%;
     max-width: 350px;
+    
 }
 .links {
   list-style: none;
@@ -42,6 +46,12 @@ body{
   text-align: center;
   text-decoration: none;
 }
-.bio{
-    color: rgb(136, 227, 136);
+.lon{
+    color: hsl(75, 94%, 57%);
+}
+
+li a:hover{
+
+    background-color: hsl(75, 94%, 57%);
+    color:black;
 }
